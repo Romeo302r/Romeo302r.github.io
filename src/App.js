@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<Body />} />
           <Route path="/edit/:id" element={<EditPage />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </>
   );
